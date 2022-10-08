@@ -1,0 +1,4 @@
+1. OpenCV
+2. SpeechRecognition 
+3. gtts
+4. playsound
