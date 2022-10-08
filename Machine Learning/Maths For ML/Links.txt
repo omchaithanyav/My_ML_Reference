@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=8ZI55Inh1_A&list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l
+https://www.kdnuggets.com/2020/06/8-basic-statistics-concepts.html
+https://www.geeksforgeeks.org/7-basic-statistics-concepts-for-data-science/
+
+Scaling: 
+https://vitalflux.com/minmaxscaler-standardscaler-python-examples/

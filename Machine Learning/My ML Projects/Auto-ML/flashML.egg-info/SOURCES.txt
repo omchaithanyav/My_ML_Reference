@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+cmds/cmds.txt
+flashML/__init__.py
+flashML.egg-info/PKG-INFO
+flashML.egg-info/SOURCES.txt
+flashML.egg-info/dependency_links.txt
+flashML.egg-info/requires.txt
+flashML.egg-info/top_level.txt

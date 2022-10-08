@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+
+<body style="background-color:#ffffcc;">
+<h1 style="text-align:center;"><font color="#000d1a">Stores Sales Predictor</font></h1>
+<h3 style="text-align:right;"><font color="#00cc66">Project by: Om Chaithanya V</font></h3>
+<h3 style="text-align:right;"><font color="black"><a href="https://github.com/omchaithanyav">GitHub</a> | <a href="https://www.linkedin.com/in/omchaithanya/">LinkedIn</a> | <a href="https://vomchaithanya.medium.com/">Medium</a></font></h3>
+<form action="{{ url_for('predict')}}" method='post'>
+  <label for="Item_Weight">Item_Weight:</label><br>
+  <input type="text" id="Item_Weight" name="Item_Weight" placeholder="Item Weight" required="required" ><br>
+  <label for="Item_Fat_Content">Item_Fat_Content:</label><br>
+  <select name="Item_Fat_Content" id="Item_Fat_Content" placeholder="Item Fat Content">
+  <option value=0>Low Fat</option>
+  <option value=1>Regular</option>
+</select><br><br>
+  <label for="Item_Visibility">Item_Visibility:</label><br>
+  <input type="text" id="Item_Visibility" name="Item_Visibility" placeholder="Visibility of Item" required="required" ><br><br>
+  <label for="Item_Type">Item_Type:</label><br>
+  <select name="Item_Type" id="Item_Type" placeholder="Item_Type">
+  <option value=0>edible</option>
+  <option value=1>non-edible</option>
+</select><br><br>
+  <label for="Item_MRP">Item_MRP:</label><br>
+  <input type="text" id="Item_MRP" name="Item_MRP" placeholder="MRP" required="required" ><br><br>
+  <label for="Outlet_Size">Outlet_Size:</label><br>
+  <select name="Outlet_Size" id="Outlet_Size" placeholder="Outlet Size">
+  <option value=2>Small</option>
+  <option value=0>High</option>
+  <option value=1>Medium</option>
+</select><br><br>
+  <label for="Outlet_Location_Type">Outlet_Location_Type:</label><br>
+  <select name="Outlet_Location_Type" id="Outlet_Location_Type" placeholder="Outlet Location Type">
+  <option value=0>Tier 1</option>
+  <option value=1>Tier 2</option>
+  <option value=2>Tier 3</option>
+</select><br><br>
+  <label for="Outlet_Type">Outlet_Type:</label><br>
+  <select name="Outlet_Type" id="Outlet_Type" placeholder="Outlet Type">
+  <option value=0>Grocery Store</option>
+  <option value=1>Supermarket Type1</option>
+  <option value=2>Supermarket Type2</option>
+  <option value=3>Supermarket Type3</option>
+</select><br><br>
+  <input type="submit" value="PREDICT">
+</form>
+
+</body>
+</html>
